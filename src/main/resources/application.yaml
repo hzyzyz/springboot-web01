@@ -1,0 +1,15 @@
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+#Rest风格支持（使用HTTP请求方式动词来表示对资源的操作）
+#需要手动开启 mvc.hiddenmethod-filter-enabled：true（默认为false）
+#  mvc:
+#    static-path-pattern: /res/**
+
+#  web:
+#    resources:
+#      static-locations: [classpath:/haha/]
+#
+
